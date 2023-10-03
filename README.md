@@ -1,5 +1,8 @@
-# shoppingcart
+# Shopping Cart
 The project has the goal of the development of a shopping cart page. in this project. I had the opportunity to work with real challenges that allowed add to my career until arrived at the conclusion of the project. Well, the project was developed in HTML5, and CSS3 and with a logical construction in JavaScript.
+
+# Link
+https://shoppingcart-eta.vercel.app/
 
 ## Main
 ![image](https://github.com/danielsjordao/shoppingcart/assets/101356855/29894074-e3d8-4730-9c36-4b058a1e146c)
