@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paypal Shopping</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+    <script async src="script.js" defer></script>   
+</head>
+<body>
+    <header>
+        <span>Paypal Shopping</span>
+    </header>
+    <main>
+        <div class="page-title"> Your Cart</div>
+        <div class="content">
+            <section>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Product</th>
+                            <th>Price</th>
+                            <th>Quantity</th>
+                            <!--<th>Total</th>-->
+                            <th><i class="bx bx-trash"></i></th>
+                        </tr>
+                    </thead>
+                    <body>
+                        <tr class="cart-product">
+                            <td>
+                                <div class="product">
+                                    <img src="https://picsum.photos/100/120" alt="">
+                                    <div class="info">
+                                        <div class="name">Picture 1</div>
+                                        <div class="category">Code 010101</div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="cart-product-price">U$ 50</td>
+                            <td>
+                                <div class="qty">                                    
+                                    <input type="number" value="1" min="0" class="product-qtd-price">
+                                </div>
+                            </td>
+                            <td >
+                                <button type="button" class="remove">x</button>
+                            </td>                            
+                        </tr>
+                        <tr class="cart-product">
+                            <td>
+                                <div class="product">
+                                    <img src="https://picsum.photos/100/120" alt="">
+                                    <div class="info">
+                                        <div class="name">Picture 2</div>
+                                        <div class="category">Code 010102</div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td class="cart-product-price">U$ 75</td>
+                            <td>
+                                <div class="qty">                                    
+                                    <input type="number" value="0" min="0" class="product-qtd-price">
+                                </div>
+                            </td>
+                            <td >
+                                <button type="button" class="remove">x</button>
+                            </td>                            
+                        </tr>
+
+                    </body>
+                </table>
+            </section>
+                        
+            <aside>
+                <div class="box">
+                  <header>Shopping Cart Summary</header>
+                  <div class="info">
+                    <div><span>Sub-total</span><span class="value">U$ 50</span></div>
+                    <div><span>Freight</span><span>Free</span></div>
+                  </div>
+                  <footer>
+                    <span>Total</span>
+                    <span class="total-value">U$ 50</span>
+                  </footer>
+                </div>
+                <button id="open-modal">Register Here</button>                            
+                <div id="fade" class="hide"></div>
+                <div id="modal" class="hide">
+                    <div id="modal-header">
+                        <h2>Register Here</h2>                        
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <label for="name">Name</label>
+                            <input type="text" id="name" value="Name and Lastname" required>
+
+                            <label for="email">e-mail</label>
+                            <input type="text" id="email" value="youremail@email.com" required> 
+                            
+                            <label for="phone">Phone</label>
+                            <input type="text" id="phone" value="(xxx) xxx-xxxx" required>
+
+                            <label for="card">Credit Card number</label>
+                            <input type="text" id="card" value="xxxx.xxxx.xxxx.xxxx" required>
+
+                            <label for="valid">Expire Date</label>
+                            <input type="text" id="valid" value="MM/YYYY" required>
+                            
+                            <label for="address">Address</label>
+                            <input type="text" id="address" value="Full adddress" required> 
+
+                            <label for="code">Postal Code</label>
+                            <input type="text" id="code" value="US Code" required> 
+
+                            <label for="country">Country</label>
+                            <input type="text" id="country" value="Country" required>
+                            
+                            <label for="state">State</label>
+                            <input type="text" id="state" value="State" required>
+
+                            <label for="city">City</label>
+                            <input type="text" id="city" value="City" required>                                                      
+                            
+                        </form>
+                        <button id="close-modal" type="reset" onclick="window.location.reload()">Payment Completion</button>
+                    </div>                        
+                </div>                
+              </aside>           
+        </div>
+    </main>  
+</body>
+</html>
