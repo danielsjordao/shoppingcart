@@ -23,7 +23,7 @@ Ao decidir a quantidade de produtos que o comprador quer levar, chegou o momento
  - O comprador deverá preencher todos os campos para conclusão do cadastro e concretização da compra. 
    ![image](https://github.com/danielsjordao/shoppingcart/assets/101356855/01e4a960-0890-43aa-9644-dac60660388e)
      - Ao clicar no botão PAYMENT COMPLETION a compra se concretiza e reset a página.
-     - ![image](https://github.com/danielsjordao/shoppingcart/assets/101356855/d9b7fdc6-5e2b-4d35-bb53-df0567da3072)
+   ![image](https://github.com/danielsjordao/shoppingcart/assets/101356855/d9b7fdc6-5e2b-4d35-bb53-df0567da3072)
 
 
 
